@@ -20,24 +20,36 @@ export const metadata: Metadata = {
   description: "kathiravan's official portfolio",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body
+//         className={cn(
+//           MainFont.className,
+//           OswaldFont.variable,
+//           PixelFont.variable
+//         )}
+//       >
+//         <GrainEffect />
+//         <Cursor color="#fff" />
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"], // choose the weights you need
+});
+
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          MainFont.className,
-          OswaldFont.variable,
-          PixelFont.variable
-        )}
-      >
-        <GrainEffect />
-        <Cursor color="#fff" />
-        {children}
-      </body>
+      <body className={bricolage.className}>{children}</body>
     </html>
   );
 }
