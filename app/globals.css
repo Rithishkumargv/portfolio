@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
 body {
   background: #000;
 }
