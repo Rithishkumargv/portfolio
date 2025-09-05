@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Card from "../ui/card";
-import MyImg from "@/public/assets/images/gallery/mainImage.PNG";
+import MyImg from "./assets/images/gallery/mainImage.PNG";
 import { cn } from "@/lib/utils";
 export default function MeCard() {
   return (
