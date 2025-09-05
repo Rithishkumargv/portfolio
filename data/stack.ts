@@ -17,15 +17,15 @@ import MaterialUiImg from "@/public/assets/images/stack/materialui.png";
 import DaisyUiImg from "@/public/assets/images/stack/daisyui.png";
 import FastifyPng from "@/public/assets/images/stack/fastify.png";
 import NestJsImg from "@/public/assets/images/stack/nestjs.jpg";
-import AlightMotionImg from "@/public/assets/images/stack/AlightMotion.jpg";
-import CapCutImg from "@/public/assets/images/stack/CapCut.jpg";
-import DavinciREesolveImg from "@/public/assets/images/stack/DaVinciResolve.jpg";
-import PhotoshopImg from "@/public/assets/images/stack/Photoshop.jpg";
-import FinalCutImg from "@/public/assets/images/stack/FinalCut.jpg";
-import AfterEffectsImg from "@/public/assets/images/stack/AfterEffects.jpg";
-import SnapSeedImg from "@/public/assets/images/stack/SnapSeed.jpg";
-import LightRoomImg from "@/public/assets/images/stack/Lightroom.jpg";
-import CanvaImg from "@/public/assets/images/stack/Canva.jpg";
+import AlightMotionImg from "@/public/assets/images/stack/alightmotion.jpg";
+import CapCutImg from "@/public/assets/images/stack/capcut.jpg";
+import DavinciREesolveImg from "@/public/assets/images/stack/davinciresolve.jpg";
+import PhotoshopImg from "@/public/assets/images/stack/photoshop.jpg";
+import FinalCutImg from "@/public/assets/images/stack/finalcut.jpg";
+import AfterEffectsImg from "@/public/assets/images/stack/aftereffects.jpg";
+import SnapSeedImg from "@/public/assets/images/stack/snapseed.jpg";
+import LightRoomImg from "@/public/assets/images/stack/lightroom.jpg";
+import CanvaImg from "@/public/assets/images/stack/canva.jpg";
 
 export const stackData = [
   {
