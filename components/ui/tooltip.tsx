@@ -27,6 +27,8 @@ const Tooltip: FC<TooltipProps> = ({ title, image, bgColor }) => {
           src={image}
           alt={title}
           className="w-full h-full overflow-clip object-contain"
+          width={27}
+          height={27}
         />
       </div>
       {/*Title*/}
