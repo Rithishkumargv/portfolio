@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Card from "../ui/card";
-import MyImg from "./assets/images/gallery/mainImage.PNG";
+import MyImg from "./assets/images/gallery/mainImage.jpeg";
 import { cn } from "@/lib/utils";
 export default function MeCard() {
   return (
@@ -8,9 +8,11 @@ export default function MeCard() {
       <div className="w-full h-[400px] sm:h-[500px] overflow-hidden">
         {/*background image*/}
         <Image
-          src={MyImg}
+          src="/assets/images/gallery/mainImage.jpeg"
           alt="Kathiravan T"
           className="absolute top-0 left-0 bottom-0 right-0 h-full w-full object-cover"
+          width={400}
+          height={300}
         />
         {/*Tags*/}
         <div className="absolute top-[65%] space-y-2">

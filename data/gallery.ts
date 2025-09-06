@@ -7,19 +7,19 @@
 export const galleryImages = [
   {
     id: 0,
-    img: "/assets/images/gallery/mainImage.png",
+    img: "/assets/images/gallery/mainImage.jpeg",
   },
   {
     id: 1,
-    img: "/assets/images/gallery/img-2.jpg",
+    img: "/assets/images/gallery/img-2.jpeg",
   },
   {
     id: 2,
-    img: "/assets/images/gallery/img-3.jpg",
+    img: "/assets/images/gallery/img-3.jpeg",
   },
   {
     id: 3,
-    img: "/assets/images/gallery/img-4.jpg",
+    img: "/assets/images/gallery/img-4.jpeg",
   },
   {
     id: 4,
