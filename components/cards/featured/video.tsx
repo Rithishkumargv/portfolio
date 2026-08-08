@@ -20,7 +20,6 @@ const Video = ({ video, active }: { video: string; active: boolean }) => {
         src={video}
         ref={videoRef}
         loop={active}
-        muted
         className={cn(
           "h-full w-full object-cover rounded-3xl",
           active ? "" : "grayscale"
