@@ -18,7 +18,8 @@ const featuredData = [
     // video:
     //   "https://cdn.dribbble.com/userupload/13004443/file/original-abd310aef7e5503eb49ec96040be757d.mp4",
     video:
-      "https://res.cloudinary.com/dun39t55z/video/upload/v1756228779/IMG_5847_sqqvey.mov",
+      // "https://res.cloudinary.com/dun39t55z/video/upload/v1756228779/IMG_5847_sqqvey.mov",
+      "https://res.cloudinary.com/dun39t55z/video/upload/v1786219723/before_after_video_inmzmj.mp4",
     credits: "Julia Dmitrievna",
     link: "https://dribbble.com/shots/23626219-Social-Media-Video-App",
   },
