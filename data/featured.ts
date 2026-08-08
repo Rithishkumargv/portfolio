@@ -37,7 +37,8 @@ const featuredData = [
     logo: "",
     tag: "Apr 2025",
     video:
-      "https://res.cloudinary.com/dun39t55z/video/upload/v1756229393/IMG_5254_juzo2z.mov",
+      // "https://res.cloudinary.com/dun39t55z/video/upload/v1756229393/IMG_5254_juzo2z.mov",
+      "https://res.cloudinary.com/dun39t55z/video/upload/v1786219715/Final_rep_montage_bbovta.mp4",
     credits: "Sok Studio",
     link: "https://dribbble.com/shots/23582749-Cyborg-League-Arena-Mobile-Game-Landing-Page",
   },
