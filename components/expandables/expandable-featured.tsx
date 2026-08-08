@@ -19,7 +19,7 @@ export default function ExpandableFeatured() {
         <div
           key={i}
           className={cn(
-            "relative h-[640px] lg:w-1/3 mb-16 transition-all origin-center duration-300 ease-in-out",
+            "relative h-auto lg:w-1/3 mb-16 transition-all origin-center duration-300 ease-in-out",
             i === hoveredIndex ? "lg:w-[40%]" : "lg:w-[33.33%]"
           )}
           onMouseEnter={() => handleMouseEnter(i)}
@@ -27,6 +27,7 @@ export default function ExpandableFeatured() {
         >
           <FeaturedCard
             active={i === hoveredIndex}
+            portrait
             title={featured.title}
             tag={featured.tag}
             video={featured.video}
