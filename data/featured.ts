@@ -28,7 +28,8 @@ const featuredData = [
     logo: "",
     tag: "Apr 2025",
     video:
-      "https://res.cloudinary.com/dun39t55z/video/upload/v1756229312/IMG_5368_nihm6n.mov",
+      // "https://res.cloudinary.com/dun39t55z/video/upload/v1756229312/IMG_5368_nihm6n.mov",
+      "https://res.cloudinary.com/dun39t55z/video/upload/v1786263009/Cloka_bcxbl6.mov",
     credits: "Mariusz Mitkow",
     link: "https://dribbble.com/shots/23623908-Frontline-Creative-Studio-Website",
   },
